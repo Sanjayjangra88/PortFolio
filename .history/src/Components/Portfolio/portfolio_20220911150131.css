@@ -1,0 +1,25 @@
+.portfolio{
+    position: relative;
+    }
+    .portfolio .box{
+        border-radius: 10px;
+        position: relative;
+    }
+    .portfolio .box:hover{
+        background: none;
+        transform: translateY(0);
+    }
+    .portfolio .img{
+        height: 300px;
+        overflow: hidden;
+        transition: 0.5s;
+
+    }
+    .portfolio .img{
+        width: 100%;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    .portfolio .box .img:hover{
+        transform: scale(1.2);
+    }
